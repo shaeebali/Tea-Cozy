@@ -33,8 +33,95 @@ a {
   padding-left: 10px;
 }
 
-img {
-  padding-right: 1120px;
+nav img {
+  padding-right: 1100px;
   height: 50px;
   padding-left: 10px;
+}
+
+.mission {
+  display: flex;
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  top: 440px;
+  left: 150px;
+  width: 1400px;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  width: 1400px;
+  padding-bottom: 10px;
+}
+
+#main-image {
+  height: 700px;
+  width: 1200px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.middle-sect {
+  display: flex;
+  text-align: center;
+}
+
+#middle-section {
+  position: absolute;
+  top: 900px;
+  left: 400px;
+  width: 900px;
+}
+
+#whats-steeping {
+  position: absolute;
+  top: 1000px;
+  left: 400px;
+  width: 900px;
+}
+
+.tiles {
+  display: flex;
+}
+
+.tiles img {
+  height: 200px;
+  width: 300px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+
+}
+
+.tiles-two {
+  display: inline-flex;
+  text-align: center;
+  margin-left: 150px;
+  padding-top: 20px;
+}
+
+.tiles-position {
+  position: absolute;
+  top: 1100px;
+  left: 400px;
+}
+
+.subtitles-one p {
+  display: inline-block;
+  padding-right: 70px;
+  padding-left: 60px;
+}
+
+.subtitles-two p {
+  display: inline-block;
+  margin-left: 175px;
+  text-align: left;
 }
