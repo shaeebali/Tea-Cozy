@@ -25,23 +25,27 @@ li {
   display: inline-block;
   padding-top: 34px;
   padding-bottom: 34px;
+  z-index: 8;
   
 }
 
 a {
   text-decoration: underline;
   padding-left: 10px;
+  z-index: 8;
 }
 
 nav img {
   padding-right: 1100px;
   height: 50px;
   padding-left: 10px;
+  z-index: 8;
 }
 
 .mission {
   display: flex;
   text-align: center;
+  z-index: 2;
 }
 
 h2 {
@@ -124,4 +128,39 @@ h4 {
   display: inline-block;
   margin-left: 175px;
   text-align: left;
+}
+
+.locations {
+  position: absolute;
+  top: 1700px;
+  left: 250px;
+}
+
+#location-image {
+  height: 500px;
+  width: 1200px;
+}
+
+.address-titles {
+  position: absolute;
+  top: 1815px;
+  left: 350px;
+  width: 300px;
+  height: 300px;
+
+}
+
+.address-titles h3 {
+  
+  
+}
+.address-titles p {
+
+}
+
+
+.address {
+  position: absolute;
+  top: 1900px;
+  left: 350px;
 }
